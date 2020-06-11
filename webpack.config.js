@@ -3,7 +3,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const production = process.env.NODE_ENV === 'production' || false;
 
 module.exports = {
-    entry: ['./src/jquery-disable-with.ts'],
+    entry: ['./src/Kahla.ts'],
     module: {
         rules: [
             {
@@ -18,10 +18,10 @@ module.exports = {
     },
     mode: 'production',
     output: {
-        filename: production ? 'jquery-disable-with.min.js' : 'jquery-disable-with.js',
+        filename: production ? 'kahla.fnsdk.min.js' : 'kahla.fnsdk.js',
         path: path.resolve(__dirname, 'dist'),
         globalObject: 'this',
-        library: 'DisableWith',
+        library: 'Kahla',
         libraryExport: 'default',
         libraryTarget: 'umd'
     },

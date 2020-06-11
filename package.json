@@ -1,13 +1,13 @@
 {
-  "name": "jquery-disable-with",
-  "version": "2.1.1",
-  "description": "Add-on to jQuery to enable auto disable options when submitting form in data-disable-with attributes.",
+  "name": "kahla.fnsdk",
+  "version": "0.0.1",
+  "description": "SDK layer for Kahla front-side app.",
   "scripts": {
     "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Anduin2017/jquery-disable-with.git"
+    "url": "git+ssh://git@github.com/AiursoftWeb/Kahla.FnSDK.git"
   },
   "keywords": [
     "jquery"
@@ -15,7 +15,7 @@
   "main": "dist/jquery-disable-with.js",
   "author": "anduin@aiursoft.com",
   "license": "MIT",
-  "homepage": "https://github.com/Anduin2017/jquery-disable-with#readme",
+  "homepage": "https://github.com/AiursoftWeb/Kahla.FnSDK.git",
   "devDependencies": {
     "terser-webpack-plugin": "^3.0.1",
     "ts-loader": "^7.0.5",
